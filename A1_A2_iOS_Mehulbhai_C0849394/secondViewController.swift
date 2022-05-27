@@ -9,10 +9,15 @@ import UIKit
 
 class secondViewController: UIViewController {
 
+    @IBOutlet weak var taView: UITableView!
+    
+    @IBOutlet weak var entercityTextField: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
 
     }
     
-   
+    @IBAction func enterCityBtn(_ sender: UIButton) {
+    }
+    
 }

@@ -48,10 +48,6 @@ extension ViewController: CLLocationManagerDelegate {
         }
     }
     
-    
-    func locationManager(_ manager: CLLocationManager, didChangeAuthorization status: CLAuthorizationStatus) {
-     
-    }
 }
 
           

@@ -74,13 +74,16 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="go"/>
+                                <connections>
+                                    <action selector="enterCityBtn:" destination="3oH-Nx-02h" eventType="touchUpInside" id="7Dt-Da-mCJ"/>
+                                </connections>
                             </button>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="aEv-RZ-D6V">
                                 <rect key="frame" x="0.0" y="146" width="414" height="684"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cellsrc" id="Qj8-at-99X">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="tableViewCell" id="Qj8-at-99X" customClass="tableViewCellTableViewCell" customModule="A1_A2_iOS_Mehulbhai_C0849394" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="44.5" width="414" height="43.5"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Qj8-at-99X" id="lBP-3V-DlD">
@@ -96,6 +99,9 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="viewCityLbl" destination="hs6-y3-m2I" id="W3f-4I-m2C"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
@@ -111,6 +117,10 @@
                             <constraint firstItem="fNm-18-vC8" firstAttribute="top" secondItem="s1P-J8-ZAq" secondAttribute="top" id="yhO-Nq-1az"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="entercityTextField" destination="yFh-vN-Zmw" id="O7U-En-4RU"/>
+                        <outlet property="taView" destination="aEv-RZ-D6V" id="6eP-ct-hNO"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3rG-Uh-08k" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BB606D602840528A00E5A10C /* tableViewCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB606D5F2840528A00E5A10C /* tableViewCellTableViewCell.swift */; };
 		BB70EB13283EED6100211C4C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB70EB12283EED6100211C4C /* AppDelegate.swift */; };
 		BB70EB15283EED6100211C4C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB70EB14283EED6100211C4C /* SceneDelegate.swift */; };
 		BB70EB17283EED6100211C4C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB70EB16283EED6100211C4C /* ViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BB606D5F2840528A00E5A10C /* tableViewCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tableViewCellTableViewCell.swift; sourceTree = "<group>"; };
 		BB70EB0F283EED6100211C4C /* A1_A2_iOS_Mehulbhai_C0849394.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = A1_A2_iOS_Mehulbhai_C0849394.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB70EB12283EED6100211C4C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BB70EB14283EED6100211C4C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				BB70EB1D283EED6100211C4C /* LaunchScreen.storyboard */,
 				BB70EB20283EED6100211C4C /* Info.plist */,
 				BB8B259F283FDE1000A5F3F4 /* secondViewController.swift */,
+				BB606D5F2840528A00E5A10C /* tableViewCellTableViewCell.swift */,
 			);
 			path = A1_A2_iOS_Mehulbhai_C0849394;
 			sourceTree = "<group>";
@@ -144,6 +147,7 @@
 				BB8B25A0283FDE1000A5F3F4 /* secondViewController.swift in Sources */,
 				BB70EB17283EED6100211C4C /* ViewController.swift in Sources */,
 				BB70EB13283EED6100211C4C /* AppDelegate.swift in Sources */,
+				BB606D602840528A00E5A10C /* tableViewCellTableViewCell.swift in Sources */,
 				BB70EB15283EED6100211C4C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
