@@ -13,6 +13,7 @@
 		BB70EB1A283EED6100211C4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB70EB18283EED6100211C4C /* Main.storyboard */; };
 		BB70EB1C283EED6100211C4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB70EB1B283EED6100211C4C /* Assets.xcassets */; };
 		BB70EB1F283EED6100211C4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB70EB1D283EED6100211C4C /* LaunchScreen.storyboard */; };
+		BB8B25A0283FDE1000A5F3F4 /* secondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8B259F283FDE1000A5F3F4 /* secondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		BB70EB1B283EED6100211C4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB70EB1E283EED6100211C4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BB70EB20283EED6100211C4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB8B259F283FDE1000A5F3F4 /* secondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				BB70EB1B283EED6100211C4C /* Assets.xcassets */,
 				BB70EB1D283EED6100211C4C /* LaunchScreen.storyboard */,
 				BB70EB20283EED6100211C4C /* Info.plist */,
+				BB8B259F283FDE1000A5F3F4 /* secondViewController.swift */,
 			);
 			path = A1_A2_iOS_Mehulbhai_C0849394;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB8B25A0283FDE1000A5F3F4 /* secondViewController.swift in Sources */,
 				BB70EB17283EED6100211C4C /* ViewController.swift in Sources */,
 				BB70EB13283EED6100211C4C /* AppDelegate.swift in Sources */,
 				BB70EB15283EED6100211C4C /* SceneDelegate.swift in Sources */,
@@ -285,8 +289,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = A1_A2_iOS_Mehulbhai_C0849394/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -301,6 +306,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "lambton.A1-A2-iOS-Mehulbhai-C0849394";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -312,8 +318,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = A1_A2_iOS_Mehulbhai_C0849394/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -328,6 +335,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "lambton.A1-A2-iOS-Mehulbhai-C0849394";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
